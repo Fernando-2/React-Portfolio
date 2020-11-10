@@ -5,7 +5,14 @@ import About from "./components/pages/About";
 import Portfolio from "./components/pages/Portfolio";
 import Contact from "./components/pages/Contact";
 import FooterLinks from "./components/footer";
+import semver from 'semver';
+import { engines } from './package';
 
+const version = engines.node;
+if (!semver.satisfies(process.version, version)) {
+  console.log(`Required node version ${version} not satisfied with current version ${process.version}.`);
+  process.exit(1);
+}
 
 
 
