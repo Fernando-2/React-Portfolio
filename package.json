@@ -20,7 +20,7 @@
     "semver": "^7.3.2"
   },
   "engines": {
-    "node": ">=v12.18.4"
+    "node": ">= 12.18.4"
   },
   "scripts": {
     "start": "react-scripts start",
