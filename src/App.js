@@ -17,7 +17,6 @@ function App() {
         <NavTabs />
         <div className="container-fluid aboutBox">
           <section className="container-sm w-100 p-3 aboutSection">
-            <Route exact path="/" component={About} />
             <Route exact path="/about" component={About} />
             <Route exact path="/portfolio" component={Portfolio} />
             <Route path="/contact" component={Contact} />
