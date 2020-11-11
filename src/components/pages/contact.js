@@ -55,6 +55,7 @@ function Contact() {
           </div>
           <button type="submit" className="btn btn-outline-secondary contactBtn submit" onClick={handleFormSubmit}>Submit</button>
         </fieldset>
+        <small>sadly this contact form doesn't actually work although on the about me page all of my contact information is there </small>
       </form>
     </>
   );
